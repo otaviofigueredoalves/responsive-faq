@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FRONTEND MENTOR SOLUTION](https://your-solution-url.com)
-- Live Site URL: [LIVE SITE](https://your-live-site-url.com)
+- Solution URL: [FRONTEND MENTOR SOLUTION](https://www.frontendmentor.io/solutions/responsive-faq-with-flexbox-qI0OTbkP11)
+- Live Site URL: [LIVE SITE](otaviofigueredoalves.github.io/responsive-faq)
 
 ## My process
 
