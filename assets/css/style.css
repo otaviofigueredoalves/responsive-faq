@@ -1,0 +1,131 @@
+/* RESET CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans',sans-serif;
+    
+}
+
+/* PAGE CONFIG */
+:root {
+    --BACKGROUND: #f9f0ff;
+    --BOX: #FFFFFF;
+    --ACTIVED : #9c2ad4; /* DETAILS */
+    --DISABLED: #2f1533; /* TEXT*/
+    --H1: 4.6rem;
+    --SUBTITLE: 2.1rem;
+    --TEXT: 2rem;
+    --COLOR-TEXT: #9A9A9A;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--BACKGROUND);
+    color: var(--DISABLED);
+    font-size: var(--SUBTITLE);
+}
+
+/* PATTERN */
+.pattern {
+    display: flex;
+}
+.pattern img {
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+/* MAIN */
+main section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* BOX */
+.box {
+    width: 100%;
+    max-width: 730px;
+    border-radius: 10px;
+    margin: 100px 30px;
+    box-shadow: rgba(23, 15, 26, 0.1) 0px 7px 30px 10px;
+    background-color: var(--BOX);
+    position: relative;
+    bottom: 250px;
+}
+.box .content {
+    padding: 40px;
+
+}
+
+/* FAQ BOX */
+.faq-box-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.faq-box-title h1 {
+    font-size: var(--H1);
+}
+
+/* FAQ TITLE */
+.faq-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 25px;
+    gap: 60px;
+}
+.faq-title:hover {
+    color: var(--ACTIVED);
+    filter: invert(25%) sepia(73%) saturate(6316%) hue-rotate(275deg) brightness(89%) contrast(89%);
+}
+.faq-title h2 {
+    font-weight: 600;
+    font-size: var(--SUBTITLE);
+    color: var(--DISABLED);
+}
+
+/* FAQ TEXT */
+.faq-text {
+    display: none;
+    font-size: var(--TEXT);
+    color: var(--COLOR-TEXT);
+    margin-top: 20px;
+}
+
+/* FAQ ENABLED */
+.open-faq {
+    display: flex;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+/* CREDITS */
+.attribution {
+    padding: 60px 20px;
+    text-align: center;
+    position: absolute;
+}
+
+/* MEDIA QUERIE */
+@media (max-width: 500px){
+    :root {
+        font-size: 46.5%;
+    }
+
+    .box {
+        margin: 100px 20px;
+    }
+    .box .content {
+        padding: 30px;
+    }
+}
